@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>CSS Selector Example</h1>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p>Quaerat eligendi, omnis vitae nobis distinctio ex itaque eum alias!</p>
+
+  <ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+    <li>Labore voluptatibus in delectus, repellat saepe dolores reiciendis. </li>
+    <li>Illo dolorum possimus nulla nisi reiciendis similique odio aperiam sed quidem. </li>
+  </ul>
+
+  <p>Distinctio, perferendis repellendus.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <p>Pariatur quae perferendis eligendi ratione. </p>
+
+  <div class="">Div container</div>
+
+  <p>Aspernatur corrupti natus quis consequuntur voluptatum! Pariatur, voluptatibus?</p>
+  <p>Illo laborum fugit maiores incidunt aliquid sint error officiis.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, vero?</p>
+
+  <input type="text" placeholder="Enter text here..."><a href="#">Link example</a>
+</body>
+
+</html>
+
+<style>
+  p {
+    font-size: 20px;
+  }
+
+  h2,
+  h2+p {
+    font-family: initial;
+    color: crimson;
+  }
+
+  div {
+    width: 100%;
+    background-color: gainsboro;
+  }
+
+  div ~ p {
+    width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  input {
+    background-color: #9ed2e8;
+    
+  }
+</style>
